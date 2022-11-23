@@ -10,12 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/globales.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Tech Pro</title>
 </head>
 
 <body>
-    <p>as</p>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="img-header">
+                <picture>
+                    <source sizes="1920w" srcset="img/header.avif 1920w" type="image/avif">
+                    <source sizes="1920w" srcset="img/header.webp 1920w" type="image/webp">
+                    <source sizes="1920w" srcset="img/header.jpg 1920w" type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="1000"
+                        height="600">
+                </picture>
+            </div>
+        </div>
+
+        <div class="texto header">
+            <p class="tagline-producto">Sonido Profesional</p>
+            <h1 class="nombre-producto">TechPRO</h1>
+            <p class="descripcion-producto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+                dignissimos eius mollitia, nesciunt qui molestias ullam corrupti rerum soluta fugiat aperiam officia,
+                iusto eos architecto libero consectetur? Natus, laborum sapiente!</p>
+            <p class="precio-producto">Desde <span>$ 299</span></p>
+        </div>
+    </header>
 
 </body>
 
